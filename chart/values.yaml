@@ -193,7 +193,7 @@ romm:
       password: admin
       # -- use an pre-existing secret to provide credentials
       #    it should contain the keys romm-user and romm-pass
-      existing_secret: 
+      existing_secret:
     filesystem_watcher:
       # -- enable inotify filesystem watcher mechanics to automatically add new roms and pick up changes as they happen
       enabled: true
@@ -211,7 +211,7 @@ romm:
         enabled: true
         # -- Cron expression to update mame xml database (default: 0 5 * * * - At 5:00 AM every day)
         cron: 0 5 * * *
-    database: 
+    database:
       # -- type can either be mariadb or sqlite
       type: sqlite
       # -- only needed when type is mariadb and mariadb.enabled is set to false
@@ -219,14 +219,14 @@ romm:
       # @default -- See [values.yaml](./values.yaml)
       mariadb:
         # -- hostname where your external mariadb is reachable
-        host: localhost 
+        host: localhost
         # -- port to connect to
         port: 3306
         # -- database schema that holds the romm tables
         schema: romm
         # -- use an pre-existing secret to provide credentials
         #    it should contain the keys mysql-user and mysql-pass
-        existing_secret: 
+        existing_secret:
         # -- mariadb user to use for our connection
         user: romm-user
         # -- mariadb password to use for our connection
@@ -234,7 +234,7 @@ romm:
     igdb_api:
       # -- use an pre-existing secret to provide credentials
       #    it should contain the keys igdb-client-id and igdb-client-secret
-      existing_secret: 
+      existing_secret:
       # -- setup your igdb api client_id, get one from https://api-docs.igdb.com/#getting-started
       client_id: CHANGEME_IGDB_CLIENT_ID
       # -- setup your igdb api client_secret, get it from https://api-docs.igdb.com/#getting-started
@@ -283,7 +283,7 @@ romm:
       platforms:
         # [your custom platform folder name]: [RomM platform name]
         gc: 'ngc'
-        psx: 'ps' 
+        psx: 'ps'
 
 # -- The list of additional volumes that will be mounted inside romm pod, this one to `/romm/library`.
 # @default -- See [values.yaml](./values.yaml)
