@@ -5,7 +5,7 @@ name: romm
 type: application
 home: https://zurdi15.github.io/romm/
 icon: https://raw.githubusercontent.com/psych0d0g/helm-charts/main/charts/romm/icon.png
-version: 0.1.25
+version: 0.1.26
 # renovate: image=zurdi15/romm
 appVersion: "2.1.0"
 kubeVersion: ">=1.22.0-0"
@@ -22,7 +22,7 @@ dependencies:
     alias: redis
     condition: redis.enabled
   - name: mariadb
-    version: ~14.1.2
+    version: ~15.0.0
     repository: https://charts.bitnami.com/bitnami
     alias: mariadb
     condition: mariadb.enabled
