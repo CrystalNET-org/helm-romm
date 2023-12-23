@@ -18,7 +18,7 @@
   ](LICENSE)
   <br/>
   ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square)
-  ![Version: 0.2.14](https://img.shields.io/badge/Version-0.2.14-informational?style=flat-square)
+  ![Version: 0.2.15](https://img.shields.io/badge/Version-0.2.15-informational?style=flat-square)
   ![AppVersion: 2.1.0](https://img.shields.io/badge/AppVersion-2.1.0-informational?style=flat-square)
   [![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/psych0d0g)](https://artifacthub.io/packages/helm/psych0d0g/romm)
 
@@ -55,9 +55,15 @@ Inspired by [Jellyfin](https://jellyfin.org/), RomM allows you to handle all you
 
 ## TL;DR
 
+Direct install via oci://:
 ```shell
-helm repo add psych0d0g https://psych0d0g.github.io/helm-charts
-helm install my-release psych0d0g/romm
+helm install my-paperless oci://harbor.crystalnet.org/charts/romm
+```
+
+install using chartMuseum:
+```shell
+helm repo add crystalnet https://charts.crystalnet.org
+helm install my-paperless crystalnet/romm
 ```
 
 ## Introduction
@@ -86,9 +92,15 @@ Kubernetes: `>=1.22.0-0`
 
 To install the chart with the release name `my-release`:
 
+Direct install via oci://:
 ```shell
-helm repo add psych0d0g https://psych0d0g.github.io/helm-charts
-helm install my-release psych0d0g/romm
+helm install my-release oci://harbor.crystalnet.org/charts/romm
+```
+
+install using chartMuseum:
+```shell
+helm repo add crystalnet https://charts.crystalnet.org
+helm install my-release crystalnet/romm
 ```
 
 These commands deploy romm on the Kubernetes cluster in the default configuration.
@@ -243,13 +255,13 @@ The command removes all the Kubernetes components associated with the chart and 
 Specify each parameter using the `--set key=value[,key=value]` argument to `helm install`. For example,
 
 ```shell
-helm install my-release --set fullnameOverride=my-romm psych0d0g/romm
+helm install my-release --set fullnameOverride=my-romm oci://harbor.crystalnet.org/charts/romm
 ```
 
 Alternatively, a YAML file that specifies the values for the parameters can be provided while installing the chart. For example,
 
 ```shell
-helm install my-release -f values.yaml psych0d0g/romm
+helm install my-release -f values.yaml oci://harbor.crystalnet.org/charts/romm
 ```
 
 > **Tip:** You can use the default values.yaml
