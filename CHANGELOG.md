@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.2.15](https://github.com/CrystalNET-org/helm-romm/releases/tag/0.2.15) - 2023-12-23
+
+### ❤️ Thanks to all contributors! ❤️
+
+@Psych0D0g
+
+### Misc
+
+- fix repo install examples ([8ef9250](https://github.com/CrystalNET-org/helm-romm/commit/8ef9250c198893667daf185f6b5cbca59dad07d2))
+
 ## [0.2.14](https://github.com/CrystalNET-org/helm-romm/releases/tag/0.2.14) - 2023-12-23
 
 ### ❤️ Thanks to all contributors! ❤️
