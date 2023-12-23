@@ -1,0 +1,48 @@
+depends_on:
+  - helm-test
+
+when:
+  - event: tag
+  - event: pull_request
+
+steps:
+  pack-chart:
+    image: quay.io/helmpack/chart-releaser:v1.6.1
+    commands:
+      - apk --no-cache add helm
+      - helm repo add bitnami https://charts.bitnami.com/bitnami
+      - mkdir -p .cr-index
+      - cr package chart
+
+  release-chart:
+    image: quay.io/helmpack/chart-releaser:v1.6.1
+    secrets:
+      - source: github_token
+        target: CR_TOKEN
+    commands:
+      - git config --global user.email "woodpecker-bot@crystalnet.org"
+      - git config --global user.name "woodpecker-bot"
+      - cr upload --skip-existing --owner CrystalNET-org --git-repo helm.crystalnet.org --release-name-template "helm-{{ .Name }}-{{ .Version }}"
+      - git clone https://github.com/CrystalNET-org/helm.crystalnet.org.git
+      - cd helm.crystalnet.org/
+      - cr index --owner CrystalNET-org --git-repo helm.crystalnet.org --pages-branch main --package-path ../.cr-release-packages --index-path ../.cr-index/index.yaml --push --release-name-template "helm-{{ .Name }}-{{ .Version }}"
+      - cd ..
+      - rm -rf helm.crystalnet.org/
+      - git reset --hard
+    when:
+      - event: tag
+
+  release-chart-to-harbor:
+    image: harbor.crystalnet.org/dockerhub-proxy/alpine/helm:3.13.3
+    secrets:
+      - source: harbor_helmrepo_user
+        target: HELMREPO_USER
+      - source: harbor_helmrepo_password
+        target: HELMREPO_PASSWORD
+    commands:
+      - helm registry login -u $${HELMREPO_USER} -p $${HELMREPO_PASSWORD} harbor.crystalnet.org/charts
+      - helm dependencies update chart
+      - helm package chart
+      - helm push *.tgz oci://harbor.crystalnet.org/charts
+    when:
+      - event: tag
