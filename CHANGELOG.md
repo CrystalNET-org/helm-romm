@@ -1,13 +1,15 @@
 # Changelog
 
-## [0.2.16](https://github.com/CrystalNET-org/helm-romm/releases/tag/0.2.16) - 2023-12-23
+## [0.2.16](https://github.com/CrystalNET-org/helm-romm/releases/tag/0.2.16) - 2024-01-02
 
 ### ❤️ Thanks to all contributors! ❤️
 
-@Psych0D0g
+@psych0d0g, @Psych0D0g
 
 ### Misc
 
+- Update harbor.crystalnet.org/dockerhub-proxy/renovate/renovate Docker tag to v37.115.0 [[#8](https://github.com/CrystalNET-org/helm-romm/pull/8)]
+- Update harbor.crystalnet.org/dockerhub-proxy/renovate/renovate Docker tag to v37.115.0 [[#8](https://github.com/CrystalNET-org/helm-romm/pull/8)]
 - fix badge in readme ([ae167f5](https://github.com/CrystalNET-org/helm-romm/commit/ae167f5beb88250d4edb9f299a63804cb2b2b3cc))
 
 ## [0.2.15](https://github.com/CrystalNET-org/helm-romm/releases/tag/0.2.15) - 2023-12-23
