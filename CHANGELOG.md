@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.2.18](https://github.com/CrystalNET-org/helm-romm/releases/tag/0.2.18) - 2024-01-02
+
+### ❤️ Thanks to all contributors! ❤️
+
+@Lukas Wingerberg
+
+### Misc
+
+- Update README.md.gotmpl ([670d9a7](https://github.com/CrystalNET-org/helm-romm/commit/670d9a7078ae9b3bd1666e1195776a432c90ac77))
+
 ## [0.2.17](https://github.com/CrystalNET-org/helm-romm/releases/tag/0.2.17) - 2024-01-02
 
 ### ❤️ Thanks to all contributors! ❤️
