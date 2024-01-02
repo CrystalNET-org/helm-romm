@@ -8,7 +8,9 @@
 
 ### Misc
 
+- Update zurdi15/romm Docker tag to v2.2.1 [[#9](https://github.com/CrystalNET-org/helm-romm/pull/9)]
 - Update harbor.crystalnet.org/dockerhub-proxy/renovate/renovate Docker tag to v37.115.0 [[#8](https://github.com/CrystalNET-org/helm-romm/pull/8)]
+- Update zurdi15/romm Docker tag to v2.2.1 [[#9](https://github.com/CrystalNET-org/helm-romm/pull/9)]
 - Update harbor.crystalnet.org/dockerhub-proxy/renovate/renovate Docker tag to v37.115.0 [[#8](https://github.com/CrystalNET-org/helm-romm/pull/8)]
 - fix badge in readme ([ae167f5](https://github.com/CrystalNET-org/helm-romm/commit/ae167f5beb88250d4edb9f299a63804cb2b2b3cc))
 
