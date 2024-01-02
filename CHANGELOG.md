@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.2.19](https://github.com/CrystalNET-org/helm-romm/releases/tag/0.2.19) - 2024-01-02
+
+### ❤️ Thanks to all contributors! ❤️
+
+@Lukas Wingerberg
+
+### Misc
+
+- fix icon ([598f904](https://github.com/CrystalNET-org/helm-romm/commit/598f904e96189a1fdc8e7319efc02c41c8a9b689))
+
 ## [0.2.18](https://github.com/CrystalNET-org/helm-romm/releases/tag/0.2.18) - 2024-01-02
 
 ### ❤️ Thanks to all contributors! ❤️
