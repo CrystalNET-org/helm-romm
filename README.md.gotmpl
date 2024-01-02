@@ -1,4 +1,5 @@
 {{- define "chart.title" }}{{ .Name | replace "-" " " | title }}{{- end }}
+{{- define "chart.icon" }}https://raw.githubusercontent.com/CrystalNET-org/helm-romm/main/chart/icon.png{{- end }}
 {{- define "parameter.description" }}{{ regexReplaceAll "(https?://)([^/]+(?:/[^/]+)?)([^\\s]+)" (.Description | default .AutoDescription) "[$2]($1$2$3)" }}{{- end }}
 
 <!-- markdownlint-disable MD033 -->
