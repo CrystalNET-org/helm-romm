@@ -4,7 +4,7 @@ description: RomM (Rom Manager) is a web based retro roms manager integrated wit
 name: romm
 type: application
 home: https://zurdi15.github.io/romm/
-icon: https://raw.githubusercontent.com/psych0d0g/helm-charts/main/charts/romm/icon.png
+icon: https://raw.githubusercontent.com/CrystalNET-org/helm-romm/main/chart/icon.png
 version: 0.2.16
 # renovate: image=zurdi15/romm
 appVersion: "2.2.1"
@@ -14,7 +14,7 @@ maintainers:
     email: h@xx0r.eu
 sources:
   - https://github.com/zurdi15/romm
-  - https://github.com/psych0d0g/helm-charts/tree/main/charts/romm
+  - https://github.com/CrystalNET-org/helm-romm
 dependencies:
   - name: redis
     version: ~18.6.0
