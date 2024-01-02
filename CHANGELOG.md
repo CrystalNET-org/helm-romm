@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.2.17](https://github.com/CrystalNET-org/helm-romm/releases/tag/0.2.17) - 2024-01-02
+
+### ❤️ Thanks to all contributors! ❤️
+
+@Psych0D0g
+
+### Misc
+
+- update logo and source links to respect new chart org ([78d62a2](https://github.com/CrystalNET-org/helm-romm/commit/78d62a23fb415153a8e3da15a3623cf76c376d3b))
+
 ## [0.2.16](https://github.com/CrystalNET-org/helm-romm/releases/tag/0.2.16) - 2024-01-02
 
 ### ❤️ Thanks to all contributors! ❤️
