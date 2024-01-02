@@ -7,7 +7,7 @@ home: https://zurdi15.github.io/romm/
 icon: https://raw.githubusercontent.com/psych0d0g/helm-charts/main/charts/romm/icon.png
 version: 0.2.16
 # renovate: image=zurdi15/romm
-appVersion: "2.1.0"
+appVersion: "2.2.1"
 kubeVersion: ">=1.22.0-0"
 maintainers:
   - name: psych0d0g
