@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.2.20](https://github.com/CrystalNET-org/helm-romm/releases/tag/0.2.20) - 2024-01-05
+
+### ❤️ Thanks to all contributors! ❤️
+
+@psych0d0g
+
+### Misc
+
+- Update harbor.crystalnet.org/dockerhub-proxy/renovate/renovate Docker tag to v37.122.0 [[#14](https://github.com/CrystalNET-org/helm-romm/pull/14)]
+
 ## [0.2.19](https://github.com/CrystalNET-org/helm-romm/releases/tag/0.2.19) - 2024-01-02
 
 ### ❤️ Thanks to all contributors! ❤️
