@@ -18,8 +18,8 @@
   ](LICENSE)
   <br/>
   ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square)
-  ![Version: 0.2.19](https://img.shields.io/badge/Version-0.2.19-informational?style=flat-square)
-  ![AppVersion: 2.2.1](https://img.shields.io/badge/AppVersion-2.2.1-informational?style=flat-square)
+  ![Version: 0.2.20](https://img.shields.io/badge/Version-0.2.20-informational?style=flat-square)
+  ![AppVersion: 2.3.1](https://img.shields.io/badge/AppVersion-2.3.1-informational?style=flat-square)
   [![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/CrystalNET)](https://artifacthub.io/packages/helm/crystalnet/romm)
 
 </div>
@@ -85,8 +85,8 @@ Kubernetes: `>=1.22.0-0`
 
 | Repository | Name | Version |
 |------------|------|---------|
-| https://charts.bitnami.com/bitnami | mariadb(mariadb) | ~15.0.0 |
-| https://charts.bitnami.com/bitnami | redis(redis) | ~18.6.0 |
+| https://charts.bitnami.com/bitnami | mariadb(mariadb) | ~15.2.0 |
+| https://charts.bitnami.com/bitnami | redis(redis) | ~18.7.0 |
 
 ## Installing the Chart
 
