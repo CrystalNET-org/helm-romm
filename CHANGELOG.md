@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.2.20](https://github.com/CrystalNET-org/helm-romm/releases/tag/0.2.20) - 2024-01-05
+## [0.2.20](https://github.com/CrystalNET-org/helm-romm/releases/tag/0.2.20) - 2024-01-20
 
 ### ❤️ Thanks to all contributors! ❤️
 
@@ -8,6 +8,9 @@
 
 ### Misc
 
+- Update Helm release redis to ~18.7.0 [[#18](https://github.com/CrystalNET-org/helm-romm/pull/18)]
+- Update harbor.crystalnet.org/dockerhub-proxy/renovate/renovate Docker tag to v37.140.10 [[#16](https://github.com/CrystalNET-org/helm-romm/pull/16)]
+- Update zurdi15/romm Docker tag to v2.3.1 [[#17](https://github.com/CrystalNET-org/helm-romm/pull/17)]
 - Update harbor.crystalnet.org/dockerhub-proxy/renovate/renovate Docker tag to v37.122.0 [[#14](https://github.com/CrystalNET-org/helm-romm/pull/14)]
 
 ## [0.2.19](https://github.com/CrystalNET-org/helm-romm/releases/tag/0.2.19) - 2024-01-02
