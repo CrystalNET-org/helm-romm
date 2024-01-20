@@ -8,6 +8,7 @@
 
 ### Misc
 
+- Update Helm release mariadb to ~15.2.0 [[#21](https://github.com/CrystalNET-org/helm-romm/pull/21)]
 - Update Helm release redis to ~18.7.0 [[#18](https://github.com/CrystalNET-org/helm-romm/pull/18)]
 - Update harbor.crystalnet.org/dockerhub-proxy/renovate/renovate Docker tag to v37.140.10 [[#16](https://github.com/CrystalNET-org/helm-romm/pull/16)]
 - Update zurdi15/romm Docker tag to v2.3.1 [[#17](https://github.com/CrystalNET-org/helm-romm/pull/17)]

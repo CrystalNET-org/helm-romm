@@ -85,7 +85,7 @@ Kubernetes: `>=1.22.0-0`
 
 | Repository | Name | Version |
 |------------|------|---------|
-| https://charts.bitnami.com/bitnami | mariadb(mariadb) | ~15.0.0 |
+| https://charts.bitnami.com/bitnami | mariadb(mariadb) | ~15.2.0 |
 | https://charts.bitnami.com/bitnami | redis(redis) | ~18.7.0 |
 
 ## Installing the Chart
