@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.3.1](https://github.com/CrystalNET-org/helm-romm/releases/tag/0.3.1) - 2024-01-20
+
+### ❤️ Thanks to all contributors! ❤️
+
+@Lukas Wingerberg
+
+### Misc
+
+- Create .gitattributes ([b357cfb](https://github.com/CrystalNET-org/helm-romm/commit/b357cfbc61a54ae970f84ba0a6bf007f3b8c5c93))
+
 ## [0.2.20](https://github.com/CrystalNET-org/helm-romm/releases/tag/0.2.20) - 2024-01-20
 
 ### ❤️ Thanks to all contributors! ❤️
