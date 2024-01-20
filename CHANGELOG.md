@@ -8,6 +8,7 @@
 
 ### Misc
 
+- Update .gitattributes ([f2310cd](https://github.com/CrystalNET-org/helm-romm/commit/f2310cd7568b3e63f7567f5872dfbdf9cb4b3dbd))
 - Update .gitattributes ([241da06](https://github.com/CrystalNET-org/helm-romm/commit/241da06384ecd1ecdba3139e2822f9d0d9511220))
 - Create .gitattributes ([b357cfb](https://github.com/CrystalNET-org/helm-romm/commit/b357cfbc61a54ae970f84ba0a6bf007f3b8c5c93))
 
