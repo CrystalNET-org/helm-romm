@@ -1,13 +1,16 @@
 # Changelog
 
-## [0.3.1](https://github.com/CrystalNET-org/helm-romm/releases/tag/0.3.1) - 2024-01-20
+## [0.3.1](https://github.com/CrystalNET-org/helm-romm/releases/tag/0.3.1) - 2025-03-10
 
 ### ❤️ Thanks to all contributors! ❤️
 
-@Lukas Wingerberg
+@psych0d0g, @Lukas Wingerberg
 
 ### Misc
 
+- Update quay.io/helmpack/chart-testing Docker tag to v3.12.0 [[#32](https://github.com/CrystalNET-org/helm-romm/pull/32)]
+- Update quay.io/helmpack/chart-releaser Docker tag to v1.7.0 [[#38](https://github.com/CrystalNET-org/helm-romm/pull/38)]
+- Update harbor.crystalnet.org/dockerhub-proxy/renovate/renovate Docker tag to v39 [[#36](https://github.com/CrystalNET-org/helm-romm/pull/36)]
 - Update .gitattributes ([f2310cd](https://github.com/CrystalNET-org/helm-romm/commit/f2310cd7568b3e63f7567f5872dfbdf9cb4b3dbd))
 - Update .gitattributes ([241da06](https://github.com/CrystalNET-org/helm-romm/commit/241da06384ecd1ecdba3139e2822f9d0d9511220))
 - Create .gitattributes ([b357cfb](https://github.com/CrystalNET-org/helm-romm/commit/b357cfbc61a54ae970f84ba0a6bf007f3b8c5c93))
